@@ -2,6 +2,8 @@ FROM anax/dev:cli
 
 COPY .php*.xml composer.json Makefile ./
 
+RUN mkdir view config
+
 USER root
 RUN printf '%s\n' \
   'xdebug.remote_autostart=1' \

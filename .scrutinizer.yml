@@ -14,6 +14,8 @@ build:
           - php-scrutinizer-run
     phpunit:
       tests:
+        before:
+          - command: "mkdir config && view"
         override:
           - command: make phpunit
             coverage:

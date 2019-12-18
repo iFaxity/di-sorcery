@@ -15,6 +15,7 @@ git:
 
 before_script:
   - make install check
+  - mkdir view config
 
 script:
   - make test
