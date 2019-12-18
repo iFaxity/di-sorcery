@@ -15,7 +15,7 @@ build:
     phpunit:
       tests:
         before:
-          - command: "mkdir config && view"
+          - command: "mkdir config view"
         override:
           - command: make phpunit
             coverage:
