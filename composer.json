@@ -1,0 +1,22 @@
+{
+    "name" : "faxity/di-sorcery",
+    "description": "An Anax module to load configuration, views and DI modules directly from the vendor folder.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Faxity\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "anax/di": "^2.0.0@alpha"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "anax/configure": "^2.0.0@beta",
+        "anax/view": "^2.0.0@beta",
+        "anax/url": "^2.0.0@alpha"
+    }
+}

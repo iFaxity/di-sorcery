@@ -1,0 +1,12 @@
+version: "3"
+services:
+    cli:
+        build: ./
+        volumes:
+          - ./config:/home/anax/repo/config
+          - ./src:/home/anax/repo/src
+          - ./test:/home/anax/repo/test
+          - ./view:/home/anax/repo/view
+        dns:
+          - 8.8.8.8
+          - 8.8.4.4

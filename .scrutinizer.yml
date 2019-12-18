@@ -1,0 +1,21 @@
+filter:
+  excluded_paths:
+    - vendor/*
+    - test/*
+
+build:
+  environment:
+    php: 7.3
+
+  nodes:
+    analysis:
+      tests:
+        override:
+          - php-scrutinizer-run
+    phpunit:
+      tests:
+        override:
+          - command: make phpunit
+            coverage:
+              file: build/coverage.clover
+              format: php-clover
