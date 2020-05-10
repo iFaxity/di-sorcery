@@ -1,7 +1,7 @@
 faxity/di-sorcery
 ======================
 
-![Build Status](https://github.com/iFaxity/di-sorcery/workflows/PHP%20Composer/badge.svg)
+![Build Status](https://github.com/iFaxity/di-sorcery/workflows/Build/badge.svg)
 [![Build Status](https://scrutinizer-ci.com/g/iFaxity/di-sorcery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/iFaxity/di-sorcery/build-status/master)
 [![Code Coverage](https://scrutinizer-ci.com/g/iFaxity/di-sorcery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/iFaxity/di-sorcery/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iFaxity/di-sorcery/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/iFaxity/di-sorcery/?branch=master)
